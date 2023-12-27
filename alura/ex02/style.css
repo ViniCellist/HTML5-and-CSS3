@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
+section {
+    border: 5px solid white;
+}
