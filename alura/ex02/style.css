@@ -1,15 +1,14 @@
 @charset "UTF-8";
 
-* {
-    background-color: black;
+body {
+    background-color: #000000;
+    color: #F6F6F6;
 }
-
 h1 {
-    color: white;
+    font-weight: bold;
 }
-p {
-    color: white;
-}
-section {
-    border: 5px solid white;
+#mark {
+    color: red;
+    border: 1px solid red;
+    padding: 3px;
 }
