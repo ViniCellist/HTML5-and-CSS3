@@ -8,7 +8,15 @@
 body {
     background-color: #000000;
     color: #F6F6F6;
+    height: 100vh;
+    box-sizing: border-box;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
 h1 {
     font-weight: bold;
 }
