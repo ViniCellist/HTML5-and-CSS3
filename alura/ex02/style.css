@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Krona+One&family=Montserrat&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -13,13 +13,27 @@ body {
 }
 
 .container {
+    margin: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-h1 {
-    font-weight: bold;
+.container__conteudo {
+    width: 615px;
 }
+
+.container__conteudo__titulo {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Krona One', sans-serif;
+}
+
+.container__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #mark {
     color: red;
     border: 1px solid red;
