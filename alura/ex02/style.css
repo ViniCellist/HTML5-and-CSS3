@@ -19,8 +19,21 @@ body {
     justify-content: space-between;
 }
 
+.container__foto {
+    display: flex;
+    width: 450px;
+    height: 450px;
+    border: 5px solid red;
+    border-radius: 300px;
+
+    background-image: url("imagens/eu.jpeg");
+}
+
 .container__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .container__conteudo__titulo {
@@ -32,6 +45,31 @@ body {
 .container__conteudo__paragrafo {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.container__link {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn__link {
+    border: 1px solid darkred;
+    background-color: red;
+    width: 120px;
+    border-radius: 16px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.btn__link:hover {
+    background-color: white;
+    color: red;
+    text-decoration: underline;
 }
 
 #mark {
