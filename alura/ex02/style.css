@@ -5,9 +5,17 @@
     padding: 0;
 }
 
+:root {
+    --cor1: #22D4FD;
+    --cor2: #F6F6F6;
+    --cor3: #000000;
+    --font1: 'Krona One', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+}
+
 body {
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor3);
+    color: var(--cor2);
     height: 100vh;
     box-sizing: border-box;
 }
@@ -17,13 +25,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 60px;
 }
 
 .container__foto {
     display: flex;
     width: 450px;
     height: 450px;
-    border: 5px solid red;
+    border: 5px solid var(--cor1);
     border-radius: 300px;
 
     background-image: url("imagens/eu.jpeg");
@@ -39,12 +48,12 @@ body {
 .container__conteudo__titulo {
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font1)
 }
 
 .container__conteudo__paragrafo {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font2)
 }
 
 .container__link {
@@ -53,27 +62,31 @@ body {
 }
 
 .btn__link {
-    border: 1px solid darkred;
-    background-color: red;
-    width: 120px;
-    border-radius: 16px;
+    border: 3px solid var(--cor1);
+    width: 150px;
+    border-radius: 8px;
     font-size: 24px;
     text-align: center;
-    color: white;
+    color: var(--cor2);
     padding: 15px;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-family: var(--font2);
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .btn__link:hover {
     background-color: white;
-    color: red;
+    color: var(--cor1);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #mark {
-    color: red;
-    border: 1px solid red;
+    color: var(--cor1);
+    border: 1px solid var(--cor1);
     padding: 3px;
 }
