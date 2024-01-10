@@ -16,7 +16,7 @@
 body {
     background-color: var(--cor3);
     color: var(--cor2);
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
 }
 
@@ -89,4 +89,14 @@ body {
     color: var(--cor1);
     border: 1px solid var(--cor1);
     padding: 3px;
+}
+
+#rodape {
+    background-color: var(--cor1);
+    color: #000000;
+    text-align: center;
+    padding: 24px;
+    font-family: var(--font2);
+    font-size: 24px;
+    font-weight: 400;
 }
