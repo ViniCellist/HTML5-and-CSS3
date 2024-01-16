@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.space {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/espaco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    
+    align-items: center;
+}
+
+.astronaut {
+    background-image: url(img/astronauta.png);
+    background-size: contain;
+    width: 20vw;
+    height: 30vh;
+    background-repeat: no-repeat;
+    animation: go-back 16s infinite alternate;
+}
+
+@keyframes go-back {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
