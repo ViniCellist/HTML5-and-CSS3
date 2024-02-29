@@ -8,5 +8,5 @@ burger.addEventListener('click', () => {
     } else {
         menu.classList.remove('block');
         menu.classList.add('hidden');
-    }
-})
+    };
+});
